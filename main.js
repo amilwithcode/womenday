@@ -23,7 +23,7 @@ function drawEight() {
     index++;
 
     if (index < eightShape.length) {
-        setTimeout(drawEight, 100);
+        setTimeout(drawEight, 1000);
     } else {
         setTimeout(() => {
             index = 0;  // Yenidən başlat
