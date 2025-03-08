@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to left bottom, rgba(183, 1, 255, 0.3), rgba(255, 0, 221, 0.5));
+    color: rgb(245, 0, 212);
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.container {
+    white-space: pre;
+    font-size: 24px;
+    line-height: 1.2;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    background: url("https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt5f18c2119ce26485/6668df65db90945e0caf9be6/beautiful-flowers-lotus.jpg?q=70&width=3840&auto=webp") 100%;
+    background-size: cover;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7), -2px -2px 4px rgba(255, 255, 255, 0.7) ;
+}
